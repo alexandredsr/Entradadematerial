@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.atividade{
+    background: red;
+    color: aliceblue;
+}
+body{
+    background: whitesmoke;
+}
+footer{
+    background: red;
+    color: aliceblue;
+/*    bottom: 0%; */
+}
+.atividade,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+/*    position: absolute;
+    width: 100%; */
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    height: 76vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#imglogo{
+    width: 150px;
+    height: 150px;
+}
